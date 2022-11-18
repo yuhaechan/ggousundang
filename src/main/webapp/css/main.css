@@ -1,0 +1,40 @@
+
+.maincontents {
+  background-color:  rgb(255, 248, 232);
+  margin: 10px auto;
+  padding: 20px;
+  border-radius: 10px;
+  width: 960px;
+}
+.maincontents .text {
+  width: 700px;
+  margin: 10px auto;
+}
+
+.maincontents div h1 {
+  padding-left: 50px;
+  line-height: 2.3em;
+  border-bottom: 1px solid;
+}
+.maincontents div p {
+  width: 580px;
+  padding: 10px;
+  font-weight: bold;
+  line-height: 2.0em;
+  margin: auto;
+}
+
+.logo_img {
+  width: 700px;
+  margin: 50px auto;
+  background-color: #fff;
+  border-radius: 15px;
+  border: 1px solid;
+}
+.logo_img img {
+  margin: 10px 200px;
+  width: 300px;
+}
+.logo_img p {
+  text-align: center;
+}

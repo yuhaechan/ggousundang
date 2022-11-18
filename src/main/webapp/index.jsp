@@ -1,0 +1,79 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
+<c:set var="contextPath" value="${pageContext.request.contextPath}" />
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/index.css">
+  <style>
+  </style>
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/change_img.js"></script>
+  <link rel="shortcut icon" href="imgs/favicon_io/favicon-16x16.png">
+  <title>꼬순당</title>
+</head>
+<body>
+  <div id="wrap">
+    <header>
+      <nav>
+        <ul id="menu">
+          <li><a href="index.html">꼬순당 <small>▽</small></a>
+            <ul class="hidemenu ">
+              <li ><a href="main.html">꼬순당은요</a></li>
+            </ul>
+          </li>
+          <li><a href="menu.html">메뉴 <small>▽</small></a>
+            <ul class="hidemenu ">
+              <li ><a href="menu1.html">음료</a></li>
+              <li ><a href="menu2.html">디저트</a></li>
+            </ul>
+          </li>
+          <li><a href="map.html">매장위치</a></li>
+          <li>
+            <ul class="icon_menu">
+              <li class="icon"><a href="https://www.instagram.com/ccosondang/?hl=en"><img src="imgs/인스타그램_라인_아이콘.png" alt="인스타그램 아이콘"></a></li>
+              <li class="icon"><a href="https://www.facebook.com/ccosondang"><img src="imgs/facebook_icon.png" alt="페이스북 아이콘"></a></li>
+              <li class="icon"><a href="login.html"><img src="imgs/login_icon.png" alt="로그인 아이콘"></a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <div id="body">
+      <a href="menu.html" class="main1"><!--꼬순당은요-->
+        <div class="imgs">
+          <img src="imgs/꼬순당소개/cc_intro_1.jpg" alt="꼬순당 모습1">
+          <img src="imgs/꼬순당소개/cc_intro_2.jpg" alt="꼬순당 모습2">
+          <img src="imgs/꼬순당소개/cc_intro_3.jpg" alt="꼬순당 모습3">
+          <img src="imgs/꼬순당소개/cc_intro_4.jpg" alt="꼬순당 모습4">
+        </div>
+        <div class="maincontent">
+          <p>desert cafe</p>
+          <h3>꼬순당</h3>
+        </div>
+        <div class="sup_content">
+          <p>( 월요일 휴무 )</p><br>
+          <p>[ open - 12:00 ]</p>
+          <p>[ close - 20:00 ]</p>
+        </div>
+      </a>  
+    </div>
+    <footer>
+      <div class="footer1">
+        <div><img src="imgs/favicon_io/android-chrome-192x192.png" alt="logo"></div>
+        <p>법인명: 꼬순당<br>사업자 등록:이새미</p><p>대표전화:033-766-5777<br>주소: 강원 원주시 귀론길 101-23 제 2동 꼬순당</p>
+      </div>
+      <div class="footer2">
+        <p>Copylight since &copy; 2022 by Web 꼬순당 CORPORATION ALL RIGHTS RESERVED.</p>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>

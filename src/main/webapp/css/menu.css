@@ -1,0 +1,90 @@
+.main2 {
+  width: 960px;
+  margin: 20px auto 10px;
+}
+
+.box1 {
+  margin: 10px auto;
+}
+.title {
+  text-align: center;
+  position: relative;
+}
+.title h1 {
+  padding: 10px;
+  color: #fff;
+}
+.title a {
+  position: absolute;
+  float: right;
+  top: 35px;
+  right: 135px;
+  text-decoration: underline;
+  color: #fff;
+}
+
+.boxstyle {
+  display: flex;
+  width: 650px;
+  margin: auto;
+}
+.overflow {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  /* IE, Edge 스크롤바 안 보이게*/
+  -ms-overflow-style: none;
+  /* firefox에서 스크롤바 안보이게 */
+  scrollbar-width: none;
+}
+.boxstyle li {
+  margin: 10px auto;
+  color: #fff;
+}
+.boxstyle li img {
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+  border-radius: 15px;
+  cursor: inherit;
+}
+.boxstyle li p {
+  color: #fff;
+  text-align: center;
+  background-color: rgba(135, 172, 247, 0.485);
+  padding: 2px;
+  font-weight: bold;
+  text-shadow: 0px 2px 3px rgba(236, 241, 251, 0.721);
+  border-radius: 25px;
+  padding: 5px;
+  width: 85%;
+  margin: auto;
+}
+.box1 {
+  background-image: url(../imgs/backbord.jpg);
+  padding: 30px;
+  border-radius: 35px;
+  margin: 30px auto;
+  border: 5px solid rgba(64, 28, 0, 0.823);
+}
+.box2 {
+  width: 750px;
+  margin: 30px auto;
+  position: relative;
+}
+.box2head {
+  width: 600px;
+  margin: 20px auto;
+  padding-left: 15px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid;
+  line-height: 1.5;
+  color: #fff;
+}
+.box2 > p {
+  display: block;
+  position: absolute;
+  right: 100px;
+  top: 10px;
+  color: #fff;
+  cursor: pointer;
+}
